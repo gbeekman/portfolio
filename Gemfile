@@ -55,6 +55,7 @@ end
 
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
+gem 'beekman_view_tool', git: 'https://github.com/gbeekman/beekman_view_tool'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

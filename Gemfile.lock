@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/gbeekman/beekman_view_tool
+  revision: 67040395899a259e095bac606311ce1f5b4a551a
+  specs:
+    beekman_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -201,6 +207,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  beekman_view_tool!
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.1.3)
   byebug

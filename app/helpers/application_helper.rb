@@ -14,4 +14,10 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+
+    def copyright_generator
+      @copyright = BeekmanViewTool::Renderer.copyright 'Graham Beekman', 'All rights reserved'
+    end
+
 end
