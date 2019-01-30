@@ -12,24 +12,20 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-  <body>
+  <body class="text-center vsc-initialized">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <%= render "shared/application_nav" %>
 
-    <div class "site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <p class="notice"><%= notice %></p>
-          <p class="alert"><%= alert %></p>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
 
-          <%= render "shared/application_nav" %>
 
-          <%= yield %>
+      <%= yield %>
 
-          <%= render "shared/application_footer" %>
+      <%= render "shared/application_footer" %>
 
-          <%= source_helper("application") %>
+      <%= source_helper("application") %>
 
-          </div>
-        </div>
       </div>
 
   </body>
