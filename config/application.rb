@@ -31,3 +31,13 @@ module Portfolio
     config.generators.system_tests = nil
   end
 end
+
+require File.expand_path('../boot', __FILE__)
+
+require 'rails/all'
+
+require 'carrierwave'
+
+if defined?(Bundler)
+  # Bundler stuff
+end
