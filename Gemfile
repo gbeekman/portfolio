@@ -66,6 +66,7 @@ gem 'carrierwave-aws', '~> 1.3'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.12'
 gem 'gritter', '~> 1.2'
+gem 'redis', '~> 4.1'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
