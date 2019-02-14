@@ -2,9 +2,17 @@
   <div class="card">
     <div class="card-body">
       <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-11">
-          <%= comment.content %>
+        <div class="col-md-2">
+          <%= gravatar_helper(comment.user) %>
+        </div>
+        <div class="col-md-10">
+          <div>
+            <%= comment.content %>
+
+            </div>
+            <div class="comment-attribution">
+              Comment Posted By <span class="comment-name"><%= comment.user.name %> </span> <%= distance_of_time_in_words(comment.created_at, Time.now) %> Ago
+            </div>
         </div>
       </div>
     </div>
