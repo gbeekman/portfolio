@@ -146,3 +146,20 @@ body {
   background: image-url('home.jpg') no-repeat;
   background-size: cover;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.app-card-container a{
+  color: blue;
+}
+
+.app-card-container h1, h3 {
+  text-align: center;
+}
